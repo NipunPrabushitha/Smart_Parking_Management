@@ -9,11 +9,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Nethmi-Kaveesha/config-server
-          default-label: main
-          search-paths:
-            - .
-          clone-on-start: true
+          uri: https://github.com/NipunPrabushitha/spms-config
+          default-label: master
+          #          clone-on-start: true
+          username: NipunPrabushitha
+          password: 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
 
 
 
