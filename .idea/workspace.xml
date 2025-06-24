@@ -4,28 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7415267a-74a7-4e7a-9876-f511924d0471" name="Changes" comment="add parking-service">
-      <change afterPath="$PROJECT_DIR$/user-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/UserServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/dto/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/dto/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/entity/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/util/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/lk/ijse/userservice/UserServiceApplicationTests.java" afterDir="false" />
+    <list default="true" id="7415267a-74a7-4e7a-9876-f511924d0471" name="Changes" comment="add user-service">
+      <change afterPath="$PROJECT_DIR$/vehicle-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-service/src/main/java/lk/ijse/vehicleservice/VehicleServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-service/src/main/java/lk/ijse/vehicleservice/controller/VehicleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-service/src/main/java/lk/ijse/vehicleservice/entity/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-service/src/main/java/lk/ijse/vehicleservice/repository/VehicleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-service/src/main/java/lk/ijse/vehicleservice/service/VehicleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-service/src/test/java/lk/ijse/vehicleservice/VehicleServiceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -104,6 +98,7 @@
     "Spring Boot.EurekaServerApplication.executor": "Run",
     "Spring Boot.ParkingServiceApplication.executor": "Run",
     "Spring Boot.UserServiceApplication.executor": "Run",
+    "Spring Boot.VehicleServiceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
@@ -135,7 +130,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
+  <component name="RunManager" selected="Spring Boot.VehicleServiceApplication">
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.configserver.ConfigServerApplication" />
@@ -170,6 +165,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VehicleServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="vehicle-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.vehicleservice.VehicleServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ConfigServerApplication" />
@@ -195,7 +198,7 @@
       <workItem from="1750599153425" duration="624000" />
       <workItem from="1750683906817" duration="1937000" />
       <workItem from="1750742653730" duration="914000" />
-      <workItem from="1750774665243" duration="4109000" />
+      <workItem from="1750774665243" duration="4442000" />
     </task>
     <task id="LOCAL-00001" summary="change maven to gradle">
       <option name="closed" value="true" />
@@ -269,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750785713919</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add user-service">
+      <option name="closed" value="true" />
+      <created>1750786111005</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750786111005</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +296,8 @@
     <MESSAGE value="give update" />
     <MESSAGE value="update config server yml file" />
     <MESSAGE value="add parking-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="add parking-service" />
+    <MESSAGE value="add user-service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add user-service" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
