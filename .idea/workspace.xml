@@ -4,29 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7415267a-74a7-4e7a-9876-f511924d0471" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Smart_Parking_AD2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/java/lk/ijse/test/TestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eureka_Server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eureka_Server/src/main/java/lk/ijse/eureka_server/EurekaServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eureka_Server/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eureka_Server/src/test/java/lk/ijse/eureka_server/EurekaServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/test/java/lk/ijse/test/TestApplicationTests.java" afterDir="false" />
+    <list default="true" id="7415267a-74a7-4e7a-9876-f511924d0471" name="Changes" comment="done config_server">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_service/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_service/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_service/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_service/src/main/java/lk/ijse/auth_service/AuthServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_service/src/main/java/lk/ijse/auth_service/auth/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/lk/ijse/configserver/ConfigServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config_Server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/auth_service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config_Server/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config_Server/src/main/java/lk/ijse/config_server/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/lk/ijse/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config_Server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config_Server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config_Server/src/test/java/lk/ijse/config_server/ConfigServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth_service/src/test/java/lk/ijse/auth_service/AuthServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Config_Server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Eureka_Server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/auth_service">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,37 +94,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Maven.Eureka_Server [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nipun/Documents/Smart_Parking_AD2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Gradle.Build Config_Server.executor": "Run",
+    "Gradle.Build Eureka_Server.executor": "Run",
+    "Maven.Eureka_Server [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ConfigServerApplication (1).executor": "Run",
+    "Spring Boot.ConfigServerApplication.executor": "Run",
+    "Spring Boot.EurekaServerApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/nipun/Documents/Smart_Parking_AD2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "spring",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Eureka_Server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.eureka_server.EurekaServerApplication" />
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.configserver.ConfigServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -93,8 +173,31 @@
       <workItem from="1750130589086" duration="1000" />
       <workItem from="1750329427635" duration="1638000" />
       <workItem from="1750338077142" duration="695000" />
-      <workItem from="1750338796070" duration="842000" />
+      <workItem from="1750338796070" duration="3088000" />
+      <workItem from="1750342500592" duration="2000" />
+      <workItem from="1750432569966" duration="1898000" />
+      <workItem from="1750599153425" duration="624000" />
+      <workItem from="1750683906817" duration="1937000" />
+      <workItem from="1750742653730" duration="914000" />
+      <workItem from="1750774665243" duration="737000" />
     </task>
+    <task id="LOCAL-00001" summary="change maven to gradle">
+      <option name="closed" value="true" />
+      <created>1750339942965</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750339942965</updated>
+    </task>
+    <task id="LOCAL-00002" summary="done config_server">
+      <option name="closed" value="true" />
+      <created>1750340670082</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750340670082</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,5 +205,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="change maven to gradle" />
+    <MESSAGE value="done config_server" />
+    <option name="LAST_COMMIT_MESSAGE" value="done config_server" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
