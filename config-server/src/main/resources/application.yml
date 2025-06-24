@@ -15,6 +15,8 @@ spring:
           username: NipunPrabushitha
           password: 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
 
+          #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
+
 
 
 eureka:
