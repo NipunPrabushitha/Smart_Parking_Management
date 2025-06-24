@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7415267a-74a7-4e7a-9876-f511924d0471" name="Changes" comment="update config server yml file" />
+    <list default="true" id="7415267a-74a7-4e7a-9876-f511924d0471" name="Changes" comment="add parking-service">
+      <change afterPath="$PROJECT_DIR$/user-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/dto/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/dto/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/entity/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/lk/ijse/userservice/UserServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +102,8 @@
     "Spring Boot.ConfigServerApplication (1).executor": "Run",
     "Spring Boot.ConfigServerApplication.executor": "Run",
     "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.ParkingServiceApplication.executor": "Run",
+    "Spring Boot.UserServiceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
@@ -107,7 +135,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.configserver.ConfigServerApplication" />
@@ -124,6 +152,20 @@
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="parking-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.parkingservice.ParkingServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.userservice.UserServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,7 +195,7 @@
       <workItem from="1750599153425" duration="624000" />
       <workItem from="1750683906817" duration="1937000" />
       <workItem from="1750742653730" duration="914000" />
-      <workItem from="1750774665243" duration="2713000" />
+      <workItem from="1750774665243" duration="4109000" />
     </task>
     <task id="LOCAL-00001" summary="change maven to gradle">
       <option name="closed" value="true" />
@@ -211,7 +253,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750777949913</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update config server yml file">
+      <option name="closed" value="true" />
+      <created>1750778241392</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750778241392</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add parking-service">
+      <option name="closed" value="true" />
+      <created>1750785713919</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750785713919</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +284,8 @@
     <MESSAGE value="give full update project" />
     <MESSAGE value="give update" />
     <MESSAGE value="update config server yml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update config server yml file" />
+    <MESSAGE value="add parking-service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add parking-service" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
