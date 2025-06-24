@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7415267a-74a7-4e7a-9876-f511924d0471" name="Changes" comment="add user-service">
-      <change afterPath="$PROJECT_DIR$/vehicle-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-service/src/main/java/lk/ijse/vehicleservice/VehicleServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-service/src/main/java/lk/ijse/vehicleservice/controller/VehicleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-service/src/main/java/lk/ijse/vehicleservice/entity/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-service/src/main/java/lk/ijse/vehicleservice/repository/VehicleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-service/src/main/java/lk/ijse/vehicleservice/service/VehicleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-service/src/test/java/lk/ijse/vehicleservice/VehicleServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7415267a-74a7-4e7a-9876-f511924d0471" name="Changes" comment="add vehicle service" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +110,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.VehicleServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.configserver.ConfigServerApplication" />
@@ -198,7 +185,7 @@
       <workItem from="1750599153425" duration="624000" />
       <workItem from="1750683906817" duration="1937000" />
       <workItem from="1750742653730" duration="914000" />
-      <workItem from="1750774665243" duration="4442000" />
+      <workItem from="1750774665243" duration="4761000" />
     </task>
     <task id="LOCAL-00001" summary="change maven to gradle">
       <option name="closed" value="true" />
@@ -280,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750786111005</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add vehicle service">
+      <option name="closed" value="true" />
+      <created>1750786701244</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1750786701244</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +292,8 @@
     <MESSAGE value="update config server yml file" />
     <MESSAGE value="add parking-service" />
     <MESSAGE value="add user-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="add user-service" />
+    <MESSAGE value="add vehicle service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add vehicle service" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
