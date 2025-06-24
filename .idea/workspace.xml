@@ -4,40 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7415267a-74a7-4e7a-9876-f511924d0471" name="Changes" comment="done config_server">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_service/src/main/java/lk/ijse/auth_service/AuthServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_service/src/main/java/lk/ijse/auth_service/auth/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/lk/ijse/configserver/ConfigServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config_Server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/auth_service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config_Server/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config_Server/src/main/java/lk/ijse/config_server/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/lk/ijse/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config_Server/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config_Server/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config_Server/src/test/java/lk/ijse/config_server/ConfigServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth_service/src/test/java/lk/ijse/auth_service/AuthServiceApplicationTests.java" afterDir="false" />
+    <list default="true" id="7415267a-74a7-4e7a-9876-f511924d0471" name="Changes" comment="give full update project">
+      <change beforePath="$PROJECT_DIR$/config-server/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/lk/ijse/configserver/ConfigServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/test/java/lk/ijse/configserver/ConfigServerApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +101,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -179,7 +164,7 @@
       <workItem from="1750599153425" duration="624000" />
       <workItem from="1750683906817" duration="1937000" />
       <workItem from="1750742653730" duration="914000" />
-      <workItem from="1750774665243" duration="737000" />
+      <workItem from="1750774665243" duration="1360000" />
     </task>
     <task id="LOCAL-00001" summary="change maven to gradle">
       <option name="closed" value="true" />
@@ -197,7 +182,31 @@
       <option name="project" value="LOCAL" />
       <updated>1750340670082</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add auth-service">
+      <option name="closed" value="true" />
+      <created>1750776270849</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750776270849</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update eureka-server">
+      <option name="closed" value="true" />
+      <created>1750776380208</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750776380208</updated>
+    </task>
+    <task id="LOCAL-00005" summary="give full update project">
+      <option name="closed" value="true" />
+      <created>1750776468802</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750776468802</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +216,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="change maven to gradle" />
     <MESSAGE value="done config_server" />
-    <option name="LAST_COMMIT_MESSAGE" value="done config_server" />
+    <MESSAGE value="add auth-service" />
+    <MESSAGE value="update eureka-server" />
+    <MESSAGE value="give full update project" />
+    <option name="LAST_COMMIT_MESSAGE" value="give full update project" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
